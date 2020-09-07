@@ -44,5 +44,7 @@ class SlingShot{
             pop();
         }
     }
-    
+            attach(body){
+                this.sling.bodyA=body;
+            }
 }
